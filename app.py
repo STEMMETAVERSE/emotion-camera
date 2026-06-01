@@ -46,7 +46,7 @@ if uploaded_file:
                     tmp_path = tmp.name
                 # Emotion Classification
                 response = client.image_classification(
-                    model="trpakov/vit-face-expression",
+                    model="dima806/facial_emotions_image_detection",
                     image=tmp_path
                 )
                 # =========================
